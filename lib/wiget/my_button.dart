@@ -22,7 +22,6 @@ class MyButton extends StatelessWidget {
           backgroundColor: backgrounColor,
           foregroundColor: textColor,
           elevation: elevation,
-          shape: RoundedRectangleBorder(borderRadius: radius)
         ),
         onPressed: (){}, child: Text(textButton));
   }
